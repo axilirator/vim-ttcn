@@ -149,7 +149,7 @@ syn keyword ttcnFunc    str2int str2oct str2float enum2int
 syn keyword ttcnFunc    lengthof sizeof ispresent ischosen
 syn keyword ttcnFunc    isvalue regexp substr replace encvalue
 syn keyword ttcnFunc    decvalue rnd isbound log2str
-syn keyword ttcnFunc    istemplatekind
+syn keyword ttcnFunc    istemplatekind testcasename hostId
 
 " Various keywords
 syn keyword ttcnKeyw    in out inout any all sender to value modifies

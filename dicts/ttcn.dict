@@ -60,6 +60,7 @@ hex2int
 hex2oct
 hex2str
 hexstring
+hostId
 if
 ifpresent
 import
@@ -148,6 +149,7 @@ superset
 system
 template
 testcase
+testcasename
 timeout
 timer
 to
