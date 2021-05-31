@@ -78,6 +78,7 @@ integer
 interleave
 ischosen
 ispresent
+istemplatekind
 label
 language
 length
