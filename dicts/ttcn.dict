@@ -86,6 +86,7 @@ lengthof
 log
 map
 match
+decmatch
 message
 mixed
 mod

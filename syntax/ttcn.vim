@@ -80,7 +80,7 @@ syn keyword ttcnAttrib  with display encode extension variant optional
 
 " Operators
 syn keyword ttcnOper    mod rem not and or xor not4b and4b or4b xor4b
-syn keyword ttcnOper    complement pattern match valueof subset superset permutation
+syn keyword ttcnOper    complement pattern match decmatch valueof subset superset permutation
 syn match   ttcnOper    "[-+*/?]"
 syn match   ttcnOper    "[<>]"
 syn match   ttcnError   "="
