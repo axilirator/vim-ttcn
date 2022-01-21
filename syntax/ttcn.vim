@@ -169,10 +169,13 @@ syn match   ttcnNumber  "-infinity\>"
 syn keyword ttcnBool    true false
 syn keyword ttcnConst   omit null pass fail inconc none error
 syn region  ttcnString  start=/"/ end=/"/ skip=/\\"/ oneline
-syn match   ttcnString  /'[01]*'B/
-syn match   ttcnString  /'\x*'H/
-syn match   ttcnString  /'\(\x\x\)*'O/
-syn match   ttcnError   /'\x\(\x\x\)*'O/
+" In binary strings strings '?' matches one bit
+syn match   ttcnString  /'[01?]*'B/
+" In hexstrings '?' matches one nibble (4 bits)
+syn match   ttcnString  /'\(\x\|?\)*'H/
+" In octetstings '?' matches one octet (8 bits)
+syn match   ttcnString  /'\(\(\x\x\)\|?\)*'O/
+syn match   ttcnError   /'\x\(\(\x\x\)\|?\)*'O/
 
 " Comments
 if version < 700
