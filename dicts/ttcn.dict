@@ -19,6 +19,7 @@ catch
 char
 char
 char2int
+char2oct
 charstring
 check
 clear
@@ -29,6 +30,7 @@ const
 control
 create
 deactivate
+decvalue
 default
 disconnect
 display
@@ -36,6 +38,8 @@ do
 done
 else
 encode
+encvalue
+enum2int
 enumerated
 error
 except
@@ -77,14 +81,17 @@ int2str
 int2unichar
 integer
 interleave
+isbound
 ischosen
 ispresent
 istemplatekind
+isvalue
 label
 language
 length
 lengthof
 log
+log2str
 map
 match
 decmatch
@@ -103,6 +110,8 @@ nowait
 null
 objid
 oct2bit
+oct2char
+oct2hex
 oct2int
 oct2str
 octetstring
@@ -127,6 +136,7 @@ recursive
 regexp
 rem
 repeat
+replace
 reply
 return
 rnd
@@ -141,6 +151,7 @@ signature
 sizeof
 start
 stop
+str2float
 str2int
 str2oct
 subset
