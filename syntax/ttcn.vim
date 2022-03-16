@@ -145,7 +145,7 @@ syn keyword ttcnFunc    int2str int2float float2int char2int char2oct
 syn keyword ttcnFunc    unichar2int bit2int bit2hex bit2oct bit2str
 syn keyword ttcnFunc    hex2int hex2bit hex2oct hex2str
 syn keyword ttcnFunc    oct2int oct2bit oct2hex oct2str oct2char
-syn keyword ttcnFunc    str2int str2oct str2float enum2int
+syn keyword ttcnFunc    str2int str2oct str2float enum2int int2enum
 syn keyword ttcnFunc    lengthof sizeof ispresent ischosen
 syn keyword ttcnFunc    isvalue regexp substr replace encvalue
 syn keyword ttcnFunc    decvalue rnd isbound log2str

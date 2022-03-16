@@ -74,6 +74,7 @@ infinity
 inout
 int2bit
 int2char
+int2enum
 int2float
 int2hex
 int2oct
